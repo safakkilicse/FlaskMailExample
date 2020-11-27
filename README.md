@@ -15,7 +15,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
--Read the code and replace your variables
+- Read the code and replace your variables
 
 - Run:
 ```
