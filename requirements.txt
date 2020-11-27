@@ -1,2 +1,2 @@
 Flask==1.1.2
-Flask_Mail==0.9.1
+Flask-Mail==0.9.1

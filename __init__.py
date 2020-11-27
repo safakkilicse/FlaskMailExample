@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask_mail import Mail, Message
+from Flask_Mail import Mail, Message
 from config import Config
 
 app = Flask(__name__)
@@ -34,11 +34,11 @@ def create_admin(app):
             button_url='The variable in to the mail_template.html you can bind what you need.'
         )
         send_html_email(
-            subject='Mail | Başarılı',
+            subject='Mail Success',
             html=rendered_template,
             recipients="your_recipient@gmail.com")
-        print("Mail gönderildi.")
-        return "Mail gönderildi."
+        print("Mail sended.")
+        return "Mail sended."
 
 
 def send_html_email(subject, html, recipients, sender='flaskmail@deneme.com'):
